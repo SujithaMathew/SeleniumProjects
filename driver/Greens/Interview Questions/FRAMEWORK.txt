@@ -1,0 +1,196 @@
+FRAMEWORK BASED INTERVIEW QUESTION:
+===================================
+Maven:
+======
+What is Maven
+What is the difference between maven project and java project
+What is dependency
+What is version control tool or build tool
+How to set the maven configuration
+Why we go for maven project
+What is the advantage of maven
+What is pom.xml file(Here only we are maintaing the dependency)
+
+POM:
+=====
+What is POM
+Why we are using POM
+What are the annotation we are using POM
+Where you are using Constructor and encapsulation
+	(In POM class we are using Constructor and
+	 Encapsulation(Here only we are creating the getters and setterts(POJO Class)))
+What is Pagefactory
+Sample program for POM
+
+DataDriven Framework:
+=====================
+What is the purpose of datadriven framework
+Types of workbook and explain(XSSFWorkbook,HSSFWorkbook)
+How to read the value from excel
+How to read particular row from the excel
+How to read all the value from the excel
+How to find the available row and cell
+What are the interface we are using in datadriven
+What are the methods we are using in DD
+Write the Sample program to read the value from excel
+How to find the cell type(Whether cell contain String or Number or Date(String=1, Date or Number=0))
+What are methods are available to get the exact value from excel and how to convert to String
+	(getStringCellValue,getNumericCellValue,getdateCellValue)
+How to get the string value and write the program
+How to get the date value and how to convert to String and write the program
+How to get the numeric value and how to convert to String and write the program
+How to intgrate with selenium write the program
+How to update the value in excel
+How to write the value in excel
+How to create the Excel
+
+JUnit:
+=======
+What is JUNIT
+Advantage of JUNIT
+Which junit version currently we are using 
+What are the annotations are available in JUNIT
+Explain the order of the annotation
+Sample program for junit
+What is assert and verify
+	"Assert" mean validation fails the execution of that particular test method is stopped 
+	and the test method is marked as failed. 
+	"Verify", mean the test method continues execution even after the failure of an assertion statement. 
+	Although the test method will still be marked as failed 
+	but the remaining statements of the test method will be executed normally
+Sample junit program by using assert
+How to exclude the test
+If we have multiple test then which basic the test will be executed
+How to run more than one classes
+Sample Program to run multiple classes
+How to find the details about failed,passed,skipped testcases from multiple classes
+Sample Program to get multiple class details
+What is Suite and Testcases
+
+TestNG:
+=======
+What is testng
+Advantange of testng
+Which testng version currently we are using 
+What are the annotations are available in TestNG
+Explain the order of the annotation
+sample program for TestNG
+How to get the emailable report
+How to convert testng.xml file
+What is the purpose of testng.xml file
+How to pass the values from testng.xml file(by using parameter)
+What is the purpose the @Optional annotation
+What are the parameters used in @Test annotation 
+	(invocationCount, priority, enabled, groups, dataProvider,dataProviderClass, retryAnalyzer, dependsOnMethod)
+If we have multiple test then which basic the test will be executed
+How to set the priority(-ve to +ve)
+Sample program by using priority
+How to run same @Test multiple times(By using invocatioon count)
+What is the difference between cross and parallel browser testing 
+What are the ways will be available to achieve cross and parallel browser testing (tests, methods,classes)
+Sample program for cross browser by using test, methods and classes
+Sample program for parallel browser by using test, methods and classes
+If we have 500 test from 500 test if you want to exclude the particular test, then how can achieve
+Consider we have 500 test cases but i have execute only 10 testcase how to perform it
+Sample program for exclude the particular test
+Sample program for include the particular test with testng.xml file
+What is groups, how to set the group, why we go for group
+Sample Program for Groups with testng.xml file
+What is define
+What is Dataprovider
+What is the difference between @Dataprovider and @Parameters
+Rules for dataprovider
+How to pass the data from one class to one more class (by using dataProviderClass)
+How we can pass the values by using single variable
+Sample program for dataprovider
+How to re-execute the failed test caes manually
+How to re-execute the failed test caes automatically if we know which test is failure(By using IRetryAnalyzer)
+Sample program for IRetryAnalyzer
+How to re-execute the failed test caes automatically if we don't know which test is failure
+		(By using IAnnotationTransformer and listners)
+Sample program for IAnnotationTransformer 
+
+Cucumber:
+=========
+What is cucumber framework
+What is BDD and TDD framework
+Difference between BDD and TDD framework
+What are the jar file we are using in cucumber framework
+What is featurefile and stepdefinition file
+What is gkerkin language
+What are the keywords we are using in cucumber(Given, When, Then)
+What is the difference between scenerio and scenerio outline
+How to pass the values from featurefile by using list,map,list of list, list of map
+Sample program for cucumber and pass the value from feature file
+How to execute the more than one feature file(By using runner file(@Runwith,@CucumberOptions))
+What is the use of testrunner class in cucumber
+What are the tagname we are using in @CucumberOption(dryRun,tags,monochrome,strict,feature,glue,plugin) 
+What are the Hooks will be available in cucumber(@After, @Before)
+What is the purpose of Background keyword in feature file
+What is ExtentCucumebrReport
+How to rerun in cucumber
+
+GIT:
+====
+What is GIT 
+What are the git commonds will be available 
+Explain all the git commonds
+	$git init
+	$git remote add origin url
+	$git clone url(it is used to push the code from remote to local workspace)
+	$git remote -v
+	$git fetch
+	$git checkout branchname
+	$git status
+	$git add .
+	$git commit -m "Comments"
+	$git push -u origin branchname
+	$git pull origin mainbranch
+How to avoid the conflicts
+When we are giving the pull request
+On daily basis from which branch you will download git code and from where will you check-in code
+How to switch another branch
+Git conflict in merging how you handle that
+In git if we have 10 commits and we have to delete 8th and 9th commit how will you do that
+
+Agile methodology:
+==================
+What is agile
+What is user stoeries
+what is scrum process
+Roles in scrum
+Agile 4 ceremonies explain all the ceremonies
+Daily activity in agile
+You role in agile
+Agile project in your project
+Agile dashboard
+
+Jenkins:
+========
+What is Jenkins
+What is the purpose of jenkins
+Configuration process in Jenkins
+How would you schedule jobs in jenkins
+Name of the job which is scheduled in jenkins(Cron job)
+What u will do in jenkins
+How to create a build in jenkins
+Explain Jenkins report structure
+Jobs in ur jenkins project
+How u will see jenkins report
+How u eill debug the test cases failed in jenkins
+Daily activities in jenkins
+Do you have experience in creating jobs in jenkins
+
+Tell about yourself
+Tell about your project and project structure
+Roles and responsibility
+Daily activities
+Wher you are working
+About your company
+How many members worked in your project
+Team size
+What are the challange you are facing in your project and how to handle it
+About your client
+Family background
+Your personal information
+Some SQL Basics

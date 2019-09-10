@@ -1,0 +1,137 @@
+SELENIUM BASED INTERVIEW QUESTIONS:
+===================================
+What is testing types of testing
+What is automation testing
+What is selenium 
+Types of selenium
+How to launch the browser and sample program
+What is the difference between close() and quit()
+What is webdriver and explain set the property for chrome driver
+WebDriver driver=new ChromeDriver()-->Here what is webdriver and chromedriver
+What selenium version you used in your project
+
+Locators:
+==========
+Explain the types of locator
+Sample program by using locator
+Explain the order or priority of the locator
+What is XPATH
+Why we are using XPATH
+Types of XPATH
+What is absolute Xpath and relative Xpath
+What is following and following-sibling XPath
+What is preceding and preceding-sibling XPath
+What is ancester, and, or XPATH
+What is starts-with, ends-with XPATH
+How you can check the xpath partially(By using contains)
+How you take the locator by text
+Sample program by using all the types of xpath
+How to handle if the locator is changing dynamically in webpage
+write the xpath for dynamically changing text
+
+How to get the value from webpage(By using getText and getAttribute("value"))
+How to navigate one url to one more url
+Explain all navigation commonds
+Sample program for navigation commonds
+What is the difference between isDisplayed(), isEnabled(), isSelected()
+Sample program for isDisplayed(), isEnabled(), isSelected()
+How to debug the program
+What is the difference between findElement and findElements
+
+Action Class:
+=============
+What are the methods will be available in action class
+How to achieve the mouse over action(Move to Element)
+Explain and Write the program for Double click, ContextClick(Rightclick), DragAndDrop, MoveToElement, KeyUp and keyDown
+
+Robot Class:
+============
+What is the purpose of robot class
+Sample program for robot class
+Why we are using robot class
+
+Windows Handling:
+=================
+What are the methods we are using in windows handling
+How to switch one window to one more window explain the syntax
+What are the ways are available to switch window(url,title,windowsid)
+Why we are not using url, title
+Wht we are using windowsid to switch to window 
+Program for windows handling
+can you please explain whether we can achieve windows handling through list or not, if yes how and write the program
+How to return the main window from child window(by using defaultContent)
+Can you tell the return type for getWindowHanles(Set<String> why set)
+
+WebTable:
+===========
+How to pick the value from table
+Explain the webtable concept
+Program for Webtable
+
+Alert:
+========
+What is Alert
+Types of Alert
+Explain the difference between simple, confirm, prompt alert
+Sample program for Alert
+How to switch to alert and tell the syntax
+
+Frames:
+=========
+What is Frames
+How to switch to frame
+What are the ways are available to switch frame(id,name,webelement,index)
+How to find the frames count(by using tagname iframe)
+If we have multiple frame inside the frame the how to switch one frame to one more frame
+How to return inner frame to outer frame(by using parentFrame)
+How to return frame webpage(by using defaultContent)
+If we have multiple frames seperatly then how to switch
+Sample program for Frames
+
+DropDown:
+=========
+How to drop down the value
+What class name we are using to select the value
+Types of dropdown
+Explain the methods 
+How to select value from single value dropdown
+How to select value from multiple value dropdown
+Sample program for single value dropdown
+Sample program for multiple value dropdown
+What are the methods will be available in select, action and robot class
+
+ScrollDown/ScrollUP:
+===================
+What interface and method we are using to ScrollDown/ScrollUp
+Wat is typecating and How to typecating 
+Syntax for SD and SU
+Sample program for SD and SU
+
+ScreenShot:
+============
+What interface and method we are using to Screenshot
+Sample program for screenshot
+What are the interface you are using in project(WebDriver, WebElement,JavaScriptExecuter,TakeScreemShot etc...)
+
+Waits:
+======
+Types of waits(Implicit wait, explicit wait, fluent wait)
+What is the difference between all the waits
+Sample Program for waits
+
+JavaScript:
+===========
+What interface and method we are using to JS
+Why we are using Javascript
+Sample program for JS
+
+What are the Selenium Exception 
+	(NoSuchElementException,NoSuchWindowException,NoSuchSessionException,NoSuchFrameException,
+	ElementNotVisibleException, ElementNotClickableException, NoAlertPresentException,
+	StaleElementException, NullPointerException)
+What is the difference between stale element exception and no such element exception
+
+
+
+
+

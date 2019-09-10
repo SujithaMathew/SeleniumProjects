@@ -1,0 +1,114 @@
+JAVA BASED INTERVIEW QUESTIONS:
+===============================
+OOPS:
+=====
+Explain about the OOPS Concept
+What is class, object, method
+System.out.println()-->Explain Here what is class(System), object(out), method(println)
+What is Encapsulation, where you used the encapsulation in your project
+What is Inheritance, where you used the Inheritance in your project
+Types of inheritance and Explain all the types
+What is multiple inheritance and how we can achieve
+Syntax and sample program for inheritance
+What is Polymorphism, where you used the polymorphism in your project
+Syntax and sample program for polymorphism
+What is the difference between method overloading(compiletime polymorphism) and overriding((runtime polymorphism))
+What is Abstraction
+What is the difference between abstract class and interface
+Can we create object for abstract class or interface
+Syntax and sample program for abstract class
+Syntax and sample program for interface
+
+Access Specifier:
+=================
+Types of access specifier(What is public, private, protected, default)
+
+Control Statements:
+===================
+What is the difference between break and continue keyword
+
+Constructor:
+============
+What is Constructor, where you used the Constructor in your project
+Types of Contructor main purpose of constructor
+Syntax and sample program for constructor
+What is the difference between this() and super()
+
+Types of variable
+=================
+Types of Variable(lobal,global,static,final)
+What is the difference between local and global variable
+What is static keyword, purpose of static keyword, where you used the static in your project
+Where you declare static variable, 
+Can you explain Static method will accept which variable whether static variable or non static variable(global) 
+Can you explain whether we can override the static method or not
+What is final (and explain final variable, final method, final class)
+Can you explain whether we can override the final method or not
+Why we are using static in main method
+
+
+String:
+=======
+Explain all the string methods or functions
+What is Literal string and non literal String, Where we are using this concept
+What is mutable string and immutable String
+What is Stringbuffer and String Builder
+Write the program by using all the string methods
+
+Array:
+======
+What is the usage of array, why we are using array
+How you iterate the array
+Advantage and disadvantage of array
+
+Collection:
+===========
+Explain about the collection concept
+What is List
+Explain all the list methods
+Types of List
+What is the difference between array and arraylist
+What is the difference between ArrayList, LinkedList, Vector
+Where you used List in your project
+Write the program by using all the list methods
+What is Set
+Explain all the set methods
+Types of Set
+What is the difference between HashSet, LinkedHashSet, TreeSet
+Where you used Set in your project
+Write the program by using all the set methods
+What is the difference between List and Set
+What is Map
+Explain all the map methods
+Types of Map
+What is the difference between HashMap, LinkedHashMap, TreeMap, Hashtable
+Where you used map in your project
+Write the program by using all the map methods
+What is the difference between List and Set and map
+How you iterate the list, set, map
+How to read the values from list, set, map
+What is null, explain map is allow null or not
+Which map allow null and which map ignore the null (HashMap, LinkedHashMap, TreeMap, Hashtable)
+Syntax for list, set, map and sample program 
+What is user define list, set, map
+What is POJO Class
+
+Exception:
+==========
+What is exception
+What are exception will be available in java
+What is runtime exception and compile time exception
+How you handle the exception
+What is try(), catch(), throw(), throws(), finally()
+If we are having multiple catch block then explain the order of the catch block
+What is the difference between throw() and throws()
+What is the difference between final, finally, finalize
+Where we are using finally block
+What is the super class of all java classes(ans: Object)
+What is the super class of all Exception(ans: Throwable)
+What is user define exception and write the sample program 
+
+Singleton class and JDBC Conncetion
+====================================
+What is Singleton class and Write the singleton class structure
+What is JDBC connection, explain and write the steps for JDBC Connection
